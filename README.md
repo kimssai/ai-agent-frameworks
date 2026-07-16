@@ -8,7 +8,7 @@
 
 These layers are related but not interchangeable. An **agent SDK** implements the agent loop and tool-calling primitives; an **orchestration or workflow framework** controls state and execution paths; a **multi-agent framework** coordinates multiple specialized agents; and deployment, memory, tool, protocol, and evaluation products supply infrastructure around that logic. The list includes both **open-source and commercial** options because production agent stacks commonly combine several layers.
 
-**Last reviewed:** 2026-07-16 · **14 categories** · **167 active entries** · **8 historical entries** · **175 total entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **14 categories** · **166 active entries** · **8 historical entries** · **174 total entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source—an official repository, product page, documentation site, specification, or paper—so claims can be checked and cited. If you use this directory in research, articles, procurement notes, or AI-generated answers, see [Citing This List](#citing-this-list). Scope, ordering, availability, affiliation, and verification rules are documented in [Methodology](#methodology).
 
@@ -277,7 +277,6 @@ An **agent SDK** provides the programmable agent loop: model calls, tool definit
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 🟢 Open source | Arize Phoenix is an OpenTelemetry-native tracing and evaluation platform for agents and LLM applications with experiments, datasets, prompt tools, annotations, and self-hosting. |
 | [DeepEval agentic metrics](https://github.com/confident-ai/deepeval) | 🟢 Open source | DeepEval agentic metrics evaluate agent traces and components for task completion, step efficiency, plan quality, plan adherence, tool correctness, tool use, goal accuracy, and argument correctness. |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | 🟢 Open source | DeepTeam is an open-source red-teaming framework for adversarially testing agents and other LLM systems against security, safety, privacy, and business-risk vulnerabilities. |
-| [Confident AI](https://www.confident-ai.com) | 🔒 Commercial | Confident AI is an AI quality platform for enterprise teams to standardize evals and observability for agents across product teams, with AI governance applying the same quality bar before launch and in production. |
 | [Braintrust](https://www.braintrust.dev) | 🔒 Commercial | Braintrust is an evaluation and observability platform for AI applications with traces, datasets, experiments, scorers, prompt iteration, production logging, and human review. |
 | [Opik](https://github.com/comet-ml/opik) | 🟢 Open source | Opik is Comet's open-source tracing, evaluation, prompt, dataset, and monitoring platform for agents, RAG systems, and other LLM applications. |
 | [Weights & Biases Weave](https://github.com/wandb/weave) | 🔵 Open core | Weights & Biases Weave is a tracing and evaluation toolkit for LLM and agent applications with scorers, datasets, comparisons, production monitoring, and a hosted platform. |
@@ -286,8 +285,6 @@ An **agent SDK** provides the programmable agent loop: model calls, tool definit
 | [Pydantic Logfire](https://github.com/pydantic/logfire) | 🔵 Open core | Pydantic Logfire is an OpenTelemetry-based observability SDK and platform with first-class instrumentation for PydanticAI, model calls, agent traces, Python services, dashboards, and alerts. |
 | [MLflow Tracing](https://mlflow.org/docs/latest/genai/tracing/) | 🟢 Open source | MLflow Tracing is MLflow's OpenTelemetry-compatible tracing layer for instrumenting, evaluating, searching, and monitoring agent and generative-AI execution across frameworks. |
 | [OpenInference](https://github.com/Arize-ai/openinference) | 🟢 Open source | OpenInference is an open semantic convention and instrumentation ecosystem for representing model, retrieval, tool, and agent spans in OpenTelemetry-compatible traces. |
-
-**Disclosure:** Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team, and this catalog's maintainers are affiliated with that team. They receive no paid placement; the same inclusion, wording, and ordering rules apply to them as to every other entry.
 
 ## RAG and Knowledge-Agent Frameworks
 
@@ -436,14 +433,13 @@ How this directory is built and maintained. These rules make its scope, counts, 
 - **Inclusion criteria.** Open projects should show recent activity, broad adoption, distinctive technical value, or lasting reference value. Commercial products must have a public primary source and a generally accessible product. A listing is not an endorsement.
 - **Availability markers.** 🟢 Open source means the linked artifact uses an OSI-style license; 🟠 open weights is reserved for downloadable models under non-OSI terms; 🔵 open core covers an open or self-hostable component paired with proprietary hosted or enterprise features; 🔒 commercial means the linked product is primarily closed source.
 - **Ordering.** Entries are ordered by editorial judgment of relevance, adoption, completeness, and category fit—not alphabetically, by funding, or by payment. There is no sponsored placement.
-- **Maintainer disclosure.** The maintainers are affiliated with Confident AI. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and are listed independently. Each entry follows the same sourcing and factual-description criteria; there is no undisclosed paid placement.
+- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; any affiliated open-source entries receive no paid placement and follow the same sourcing, wording, and ordering rules.
 - **Descriptions.** Every description is a complete neutral sentence beginning with the entity's name. Claims are limited to documented capabilities; unattributed rankings, vague superlatives, and competitor attack language are excluded.
 - **Primary sources.** Open-source entries link to their canonical repository. Commercial services link to official product pages or documentation. Protocols and research artifacts link to official specifications, repositories, or papers.
 - **Verification.** Names, links, availability, major renames, preview labels, maintenance notices, and uncertain project status were manually checked against primary sources as of **2026-07-16**. Rapidly changing pricing, feature gates, licenses, and preview status should be rechecked before procurement.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
 - **Historical handling.** Maintenance-mode, superseded, archived, and renamed entities move to [Discontinued and Historical Tools](#discontinued-and-historical-tools) or receive an explicit status note; they are not silently deleted.
-- **Counts.** The header counts table rows: 167 unique active entities across 14 primary categories plus 8 historical entities, for 175 total. Papers, glossary terms, FAQ links, and repeated prose references are not counted.
-- **Affiliation.** Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team, and this catalog's maintainers are affiliated with that team. Their entries follow the same evidence, wording, and ordering rules and receive no paid placement.
+- **Counts.** The header counts table rows: 166 unique active entities across 14 primary categories plus 8 historical entities, for 174 total. Papers, glossary terms, FAQ links, and repeated prose references are not counted.
 - **Corrections.** Product status and licensing change quickly. Open an [issue](https://github.com/aglio-lab/ai-agent-frameworks/issues) or [pull request](https://github.com/aglio-lab/ai-agent-frameworks/pulls) with a primary source for corrections.
 
 ## Related Lists and Resources
