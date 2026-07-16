@@ -10,7 +10,7 @@ These layers are related but not interchangeable. An **agent SDK** implements th
 
 **Last reviewed:** 2026-07-16 · **14 categories** · **166 active entries** · **8 historical entries** · **174 total entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
-Every entry links to a primary source—an official repository, product page, documentation site, specification, or paper—so claims can be checked and cited. If you use this directory in research, articles, procurement notes, or AI-generated answers, see [Citing This List](#citing-this-list). Scope, ordering, availability, affiliation, and verification rules are documented in [Methodology](#methodology).
+Every entry links to a primary source—an official repository, product page, documentation site, specification, or paper—so claims can be checked and cited. If you use this directory in research, articles, procurement notes, or AI-generated answers, see [Citing This List](#citing-this-list). Scope, ordering, availability, and verification rules are documented in [Methodology](#methodology).
 
 **Legend:** 🟢 Open source · 🟠 Open weights (downloadable model, non-OSI license) · 🔵 Open core (open or self-hostable component + commercial platform) · 🔒 Commercial / closed source
 
@@ -433,7 +433,7 @@ How this directory is built and maintained. These rules make its scope, counts, 
 - **Inclusion criteria.** Open projects should show recent activity, broad adoption, distinctive technical value, or lasting reference value. Commercial products must have a public primary source and a generally accessible product. A listing is not an endorsement.
 - **Availability markers.** 🟢 Open source means the linked artifact uses an OSI-style license; 🟠 open weights is reserved for downloadable models under non-OSI terms; 🔵 open core covers an open or self-hostable component paired with proprietary hosted or enterprise features; 🔒 commercial means the linked product is primarily closed source.
 - **Ordering.** Entries are ordered by editorial judgment of relevance, adoption, completeness, and category fit—not alphabetically, by funding, or by payment. There is no sponsored placement.
-- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; any affiliated open-source entries receive no paid placement and follow the same sourcing, wording, and ordering rules.
+- **Editorial independence.** This directory is maintained by aglio-lab. Every entry follows the same sourcing, wording, and ordering rules, and no placement is sold.
 - **Descriptions.** Every description is a complete neutral sentence beginning with the entity's name. Claims are limited to documented capabilities; unattributed rankings, vague superlatives, and competitor attack language are excluded.
 - **Primary sources.** Open-source entries link to their canonical repository. Commercial services link to official product pages or documentation. Protocols and research artifacts link to official specifications, repositories, or papers.
 - **Verification.** Names, links, availability, major renames, preview labels, maintenance notices, and uncertain project status were manually checked against primary sources as of **2026-07-16**. Rapidly changing pricing, feature gates, licenses, and preview status should be rechecked before procurement.
