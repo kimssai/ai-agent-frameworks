@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below. For reproducible citations, cite a monthly release or commit permalink."
+title: "The Comprehensive List of AI Agent Frameworks and Orchestration Tools"
+abstract: "a curated, source-linked directory of open-source and commercial frameworks for building, orchestrating, deploying, and operating AI agents. Includes a machine-readable catalog."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-16"
+repository-code: "https://github.com/aglio-lab/ai-agent-frameworks"
+url: "https://github.com/aglio-lab/ai-agent-frameworks"
+license: CC0-1.0
+keywords:
+  - ai-agents
+  - agent-framework
+  - agent-orchestration
+  - multi-agent
+  - llm-agents
+  - mcp
+  - generative-ai
+  - agentic-ai
+authors:
+  - name: "aglio-lab"
+    website: "https://github.com/aglio-lab"

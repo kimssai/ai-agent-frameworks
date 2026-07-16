@@ -1,0 +1,35 @@
+# The Comprehensive List of AI Agent Frameworks and Orchestration Tools
+
+> a curated, source-linked directory of open-source and commercial frameworks for building, orchestrating, deploying, and operating AI agents. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
+
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same evidence rules.
+
+## Main content
+
+- [Full list](https://raw.githubusercontent.com/aglio-lab/ai-agent-frameworks/main/README.md): 175 source-linked entries across 15 catalog sections
+- [JSON catalog](https://raw.githubusercontent.com/aglio-lab/ai-agent-frameworks/main/data/tools.json): structured entity records
+- [CSV catalog](https://raw.githubusercontent.com/aglio-lab/ai-agent-frameworks/main/data/tools.csv): flat machine-readable index
+- [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/ai-agent-frameworks/main/MAINTENANCE.md): review schedule and evidence rules
+
+## Key categories
+
+- Agent SDKs and General-Purpose Frameworks (18 entries)
+- Agent Orchestration and Workflow Frameworks (10 entries)
+- Multi-Agent Systems and Research Frameworks (10 entries)
+- Browser, Computer-Use, and Coding Agents (18 entries)
+- Tool Use, MCP, and Integration Infrastructure (18 entries)
+- Agent Memory and State Infrastructure (9 entries)
+- Low-Code and Visual Agent Builders (13 entries)
+- Durable Execution and Background Workflows (10 entries)
+- Cloud-Managed Agent Services (12 entries)
+- Agent Deployment, Serving, and Sandboxes (12 entries)
+- Agent Evaluation, Observability, and Testing (15 entries)
+- RAG and Knowledge-Agent Frameworks (8 entries)
+- Voice and Realtime Agent Frameworks (8 entries)
+- Agent Protocols and Interoperability (6 entries)
+
+## Citation
+
+- [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/ai-agent-frameworks/main/CITATION.cff)
+- Cite as: “The Comprehensive List of AI Agent Frameworks and Orchestration Tools” (2026). GitHub. https://github.com/aglio-lab/ai-agent-frameworks
+- Cite an individual tool using its own repository, documentation, or paper.
